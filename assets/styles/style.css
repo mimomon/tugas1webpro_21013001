@@ -1,0 +1,319 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  font-family: Arial;
+}
+
+body{
+    color: #142C5C;
+    line-height: 1;
+}
+
+a
+{
+    all: unset;
+}
+
+.colorstyle
+{
+    color: #3252DF;
+}
+
+header
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom-color: #b5b5b5;
+  border-bottom: px;
+  border-style: solid;
+}
+
+ul
+{
+  display: flex;
+}
+
+ul li
+{
+  text-decoration: none;
+  list-style-type: none;
+  margin-left: 35px;
+  font-size: 15px;
+}
+
+main
+{
+    margin: 30px;
+}
+
+.iklan
+{
+    text-align: center;
+    position: relative;
+}
+
+.ad
+{
+    width: 90%;
+}
+
+.informasi
+{
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    border-radius: 25%;
+}
+
+.button
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 20%;
+    background-color: #f7f7f7;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button p
+{
+    display: inline-block;
+    transform: translateY(-50%);
+}
+
+.button:hover
+{
+    cursor: pointer;
+}
+
+.button:nth-child(1)
+{
+    border-right: 1px solid #d0cccc ;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.button:nth-child(2)
+{
+    border-left: 1px solid #d0cccc ;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.buton:hover{
+    cursor: pointer;
+}
+
+.button img
+{
+    width: 30px;
+}
+
+/* Destinasi */
+
+.judul
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.width_h
+{
+    width: 240px;
+}
+
+.box_h
+{
+    display: inline-block;
+    position: relative;
+    background-color: #0066FE;
+    color: white !important;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.judul_box
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.detail_box
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.detail_box p
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+}
+
+.box_h .utama
+{
+    display: block;
+    border-radius: 25px;
+    height: 250px;
+    width: 100%;
+}
+
+.box_h .bintang
+{
+    width: 34px;
+}
+
+.button_h
+{
+    margin: 10px;
+    width: 90%;
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+
+.button_h button
+{
+    border-radius: 10px;
+    border: none;
+    padding: 1opx 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button_h .button:hover
+{
+    cursor: pointer;
+}
+
+.rekomendasi
+{
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.box_h
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box_r img
+{
+    display: block;
+    margin: auto;
+}
+
+.box_r .info_r
+{
+    transform: translateY(-100%);
+    color: #f7f7f7;
+    padding: 20px;
+    background: linear-gradient(268.58deg, rgba(0, 0, 0, 0) 34.26%, #0066FE 91.4%);
+}
+
+.box_r .utama_r
+{
+border-radius: 25px;
+width: 100%;
+}
+
+.tabel
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.i
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+}
+
+.i .icon
+{
+    margin-top: 30px;
+}
+
+.i .detail
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #BDBBBB;
+}
+
+.info
+{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.info .active
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.info .judul_info
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.info .link_info a
+{
+margin: 30px;
+color: #BDBBBB;
+display: block;
+}
+
+.footer
+{
+    border-top: 1px solid #d0cccc;
+}
+
+.icon
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    display: flex;
+    font-weight: bolder;
+    justify-content: center;
+}
+
+.copyright
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #BDBBBB;
+    font-weight: bold;
+}
